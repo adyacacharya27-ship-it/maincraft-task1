@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- This line makes the page scale correctly on phones -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MainCrafts Technology</title>
+  <meta name="description" content="MainCrafts Technology builds websites, apps and tools with care.">
+
+  <!-- Google Font: Bricolage Grotesque (headings and body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===== HEADER & NAVIGATION ===== -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">MainCrafts Technology</a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+      <div class="container hero-inner">
+        <h1>We build software that works the way you do.</h1>
+        <p class="tagline">Websites, apps and tools from a small team that cares about the details.</p>
+        <a href="#contact" class="btn">Get started</a>
+      </div>
+    </section>
+
+    <!-- ===== FEATURES SECTION ===== -->
+    <section class="features" id="about">
+      <div class="container">
+        <h2>What we do</h2>
+        <p class="section-intro">Four things we focus on in every project.</p>
+
+        <!-- Cards sit in a CSS Grid that adjusts the number of columns automatically -->
+        <div class="card-grid">
+
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <!-- Code icon (inline SVG) -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+            </div>
+            <h3>Web development</h3>
+            <p>Clean, well-structured sites built with modern HTML, CSS and JavaScript.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <!-- Phone icon -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2" width="12" height="20" rx="2"/><line x1="11" y1="18" x2="13" y2="18"/></svg>
+            </div>
+            <h3>Responsive design</h3>
+            <p>Pages that look right on phones, tablets and desktop screens.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <!-- Lightning bolt icon -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/></svg>
+            </div>
+            <h3>Fast performance</h3>
+            <p>Lightweight pages that load quickly, even on slow connections.</p>
+          </article>
+
+          <article class="card">
+            <div class="icon" aria-hidden="true">
+              <!-- Chat bubble icon -->
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <h3>Friendly support</h3>
+            <p>Questions after launch? We answer them in plain language.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer" id="contact">
+    <div class="container footer-inner">
+      <p>&copy; 2026 MainCrafts Technology. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="mailto:hello@example.com">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
